@@ -1,0 +1,58 @@
+
+
+
+/* .category,
+.category button {
+    border: 0.1rem solid black;
+   
+} */
+
+.category {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:stretch;
+    text-align: center;
+
+    height: 100vh; */
+    height: 87.6vh;
+    display: grid;
+   grid-template-rows:   repeat(6, 1fr);
+}
+
+
+
+
+.category-title{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.category div {
+    border: 0.1rem solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* clues */
+.category-clue{
+    margin-right: 0;
+    display: block;
+    font-size: 3rem ;
+    color: gold;
+    font-weight: bold;
+    background-color: darkblue;
+    border: 0.1rem solid black;
+}
+
+.category-clue:hover,
+.category-clue:focus{
+    color: #16e0bd;
+    cursor: pointer;
+}

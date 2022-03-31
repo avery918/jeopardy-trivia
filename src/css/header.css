@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.5rem;
+    color: #fff;
+    grid-row-start: 1;
+    grid-column: 1/ -1;
+    align-items: center;
+    padding: .5em 0;
+  
+}
+
+.new-game-btn, 
+.score {
+    align-self: center;
+}
+.new-game-btn{
+    
+    padding: .5em 1em;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    background: rgb(201, 172, 10);
+}
+
+.new-game-btn:hover,
+.new-game-btn:focus{
+    font-size: 1.8;
+    cursor: pointer;
+}
+
+.header-title{
+    font-size: 4rem;
+    color: white;
+}
+
+.score{
+    font-size: 3rem;
+}

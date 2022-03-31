@@ -1,0 +1,28 @@
+.init-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.page-title{
+    font-size: 5rem;
+    color: white;
+    margin-bottom: .75em;
+}
+.start-game{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgb(201, 172, 10);
+    border: none;
+    border-radius: 5px;
+    padding: .6em 1.5em;
+}
+.start-game:hover,
+.start-game:focus{
+    cursor: pointer;
+}

@@ -1,0 +1,34 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    background-color: darkblue;
+    
+}
+
+
+/* jeopardy board */
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows:  repeat(6, 1fr);
+    height: 100vh;
+}
+
+/* disable clues */
+
+.btn-disabled{ 
+    font-size: 0;
+}
+
+.btn-disabled:hover,
+.btn-disabled:focus {
+    pointer-events: none;
+}
+
